@@ -11,7 +11,7 @@
   input(vnote_10 + 14, 256LL, 10LL);
   ```
   在edit函数中，input可以接收512字节的数据，明显溢出
-  ```
+  ```
   if ( vnoteptr_58 )
   {
     puts("Enter the new content:");
